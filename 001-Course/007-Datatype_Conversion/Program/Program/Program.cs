@@ -26,7 +26,7 @@ class Program
         float money = 3232.2324F;
 
         // Explicit conversion.
-        // If we use the typecas operator for converting large float value, no exceptions will be thrown.
+        // If we use the typecast operator for converting large float value, no exceptions will be thrown.
         // If we use the Convert class for converting large float value, integer overflow exception will be thrown.
         int balance = (int)money;  // Using the typecast operator.
         int profit = Convert.ToInt32(money);  // Using the convert class in C#.
@@ -41,7 +41,5 @@ class Program
         // If the conversion is successfull, new value will be assigned to result variable.
         // TryParse will return true if conversion is successful, else false.
         bool isConversionSuccessful = int.TryParse(strNumber, out result);
-
-
     }
 }

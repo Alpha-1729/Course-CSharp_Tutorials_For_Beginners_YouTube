@@ -22,6 +22,6 @@ class Program
         evenNumbers[0] = 2;
         evenNumbers[1] = 4;
         evenNumbers[2] = 6;
-        Console.WriteLine(evenNumbers[2]);
+        Console.WriteLine(evenNumbers[2]); 
     }
 }
