@@ -4,9 +4,9 @@
 >>>> Interfaces
         We create interfaces using the interface keyword. Just like classes interfaces also contain properties, methods, delegates or events, but only declarations and no implementations.
 
-        It is a compile time error to provide implementaions for any interface member.
+        It is a compile time error to provide implementations for any interface member.
     
-        Interface members are public by default, and they dont't allow explicit access modifiers.
+        Interface members are public by default, and they don't allow explicit access modifiers.
 
         Interface cannot contain fields.
 
@@ -14,7 +14,7 @@
 
         A class or a struct can inherit from more than one interface at the same time, but where as, a class cannot inherit from more than one class at the same time.
 
-        Interfaces can inherit from other interfaces. A class that inherits this interface must provide implementation for all interface memebers in the entire interface inheritance chain.
+        Interfaces can inherit from other interfaces. A class that inherits this interface must provide implementation for all interface members in the entire interface inheritance chain.
 
         We cannot create an instance of an interface, but an interface reference variable can point to a derived class object.
 
